@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".HomeActivity">
+
+    <include layout="@layout/custome_toolbar"
+        android:id="@+id/Toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/layout_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khỏi lo hôm nay ăn gì? Hãy để HintFood giúp bạn.!"
+            android:textColor="@color/colorDarkRed"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_cart" />
+
+            <Button
+                android:id="@+id/btnHintNL"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_small"
+                android:backgroundTint="@color/colorOrangeRed"
+                android:text="Gợi ý bằng nguyên liệu"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_calendar"/>
+            <Button
+                android:id="@+id/btnHintWeek"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="Gợi ý thực đơn cả tuần"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_small"
+                android:backgroundTint="@color/colorOrangeRed"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

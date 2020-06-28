@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuggestFoodActivity">
+
+    <include layout="@layout/custome_toolbar"
+        android:id="@+id/Toolbar"/>
+
+    <ScrollView
+        android:id="@+id/scrollList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/listLeft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:background="@mipmap/ic_bapbo">-->
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:text="Bắp bò hầm đu đủ"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:textColor="@color/colorWhite"-->
+                        <!--android:layout_gravity="bottom"-->
+                        <!--android:background="@color/colorCrystal_clear"/>-->
+                <!--</LinearLayout>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/listRight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:background="@mipmap/ic_lau_ga">-->
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:text="Đổi khẩu vị với Tôm kho tàu"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:textColor="@color/colorWhite"-->
+                        <!--android:layout_gravity="bottom"-->
+                        <!--android:background="@color/colorCrystal_clear"/>-->
+                <!--</LinearLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

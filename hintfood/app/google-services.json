@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647820644496",
+    "firebase_url": "https://hintfood-1559631183054.firebaseio.com",
+    "project_id": "hintfood-1559631183054",
+    "storage_bucket": "hintfood-1559631183054.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647820644496:android:c46b0301a9b126ba",
+        "android_client_info": {
+          "package_name": "nhom10.hintfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647820644496-23r2e1vmtoamg5ul8iqloudo2096leal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nhom10.hintfood",
+            "certificate_hash": "32320ce043f1e2ff75cb0c6b3004bf2eb4aa558c"
+          }
+        },
+        {
+          "client_id": "647820644496-0fqiuhvur44g9l6ancnj5h8nrj1r0ojs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa4y6ZiI79Fv6sh02iePDsrCXM2b0ww20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647820644496-0fqiuhvur44g9l6ancnj5h8nrj1r0ojs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

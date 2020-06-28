@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HintActivity">
+
+    <include layout="@layout/custome_toolbar"
+        android:id="@+id/Toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn đang có nguyên liệu gì trong tay?"
+        android:textColor="@color/colorRed"
+        android:textSize="25dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn có thể nhập nhiều nguyên liệu bằng cách nhập dấu phẩy khi nhập."
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sau khi nhập xong nguyên liệu, nhấn nút 'Gợi ý món' để xem danh sách món ăn mà HintFood gợi ý cho bạn."
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etNguyenlieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Nhập nguyên liệu"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/colorWhiteSmoke"/>
+    <Button
+        android:id="@+id/btnHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Gợi ý món"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/colorPrimary"/>
+</LinearLayout>

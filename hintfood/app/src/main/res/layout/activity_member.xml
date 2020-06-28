@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eaeaea"
+    tools:context=".MemberActivity">
+    
+    <include layout="@layout/custome_toolbar"
+        android:id="@+id/Toolbar"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:hint="Tìm thành viên"
+        android:completionHintView="@drawable/ic_search"
+        android:textColor="#000"
+        android:completionThreshold="0">
+        <requestFocus />
+    </AutoCompleteTextView>
+    
+    <ListView
+        android:id="@+id/lvMember"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp">
+
+    </ListView>
+</LinearLayout>

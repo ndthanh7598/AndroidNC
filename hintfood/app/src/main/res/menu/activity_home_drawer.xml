@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Hôm nay ăn gì?" />
+
+        <item
+            android:id="@+id/nav_personalinfo"
+            android:icon="@drawable/ic_person"
+            android:title="Thông tin cá nhân" />
+
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_people"
+            android:title="Thành viên trong gia đình" />
+
+        <item
+            android:id="@+id/nav_like"
+            android:icon="@drawable/ic_star"
+            android:title="Món ăn yêu thích" />
+
+        <item
+            android:id="@+id/nav_vote"
+            android:icon="@drawable/ic_trending_up"
+            android:title="Xu hướng cá nhân" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Camera" />-->
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Đăng xuất" />
+    </group>
+
+</menu>

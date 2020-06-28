@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="200dp"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp"
+    android:weightSum="1.0">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarCmt"
+        android:layout_width="0dip"
+        android:layout_height="40dp"
+        android:layout_weight=".1"/>
+    <LinearLayout
+        android:id="@+id/lnCmt"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight=".9"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên user"
+            android:textSize="14dp"
+            android:textColor="@color/colorDarkGreen"/>
+
+        <TextView
+            android:id="@+id/ndCmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung"
+            android:textSize="16dp"
+            android:textColor="@color/colorBlack"/>
+
+        <ImageView
+            android:id="@+id/imgCmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
